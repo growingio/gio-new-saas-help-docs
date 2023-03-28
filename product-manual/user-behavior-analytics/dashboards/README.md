@@ -33,7 +33,7 @@ sidebar_position: 1
 
 看板侧栏包含以下几个部分：
 
-* 订阅看板：展示你所订阅的看板，看板支持订阅， 具体订阅方式请查看 [看板订阅](https://growingio.gitbook.io/op/v/14.7/product-manual/user-behavior-analytics/charts/subscribe-to-kanban)。
+* 订阅看板：展示你所订阅的看板，看板支持订阅， 具体订阅方式请查看 [看板订阅](../../product-manual/user-behavior-analytics/charts/subscribe-to-kanban)。
     
 * 全部看板：点击全部看板，可进入看板管理模块 ，对看板进行更有效率的管理工作。
     
