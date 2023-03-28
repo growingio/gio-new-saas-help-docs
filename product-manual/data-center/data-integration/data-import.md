@@ -7,7 +7,7 @@ sidebar_position: 2
 
 ## 简介
 
-通过 SDK 或者其他方式产生的用户相关历史数据，进行处理加工成固定的格式后，通过创建数据导入任务的方式将历史用户产生的数据导入 CDP 系统中，数据上传成功即可在其他分析模块进行用户行为的分析
+通过 SDK 或者其他方式产生的用户相关历史数据，进行处理加工成固定的格式后，通过创建数据导入任务的方式将历史用户产生的数据导入系统中，数据上传成功即可在其他分析模块进行用户行为的分析
 
 ## 功能边界或约束
 
@@ -59,7 +59,7 @@ sidebar_position: 2
 
 ### 确定创建任务
 
-### 上传数据，将按照固定[数据格式](../../../product-manual/data-center/data-integration/data-import#数据导入格式)导入 CDP[](#shang-chuan-shu-ju-jiang-an-zhao-gu-ding-shu-ju-ge-shi-dao-ru-cdp)
+### 上传数据，将按照固定[数据格式](../../../product-manual/data-center/data-integration/data-import#数据导入格式)导入系统[](#shang-chuan-shu-ju-jiang-an-zhao-gu-ding-shu-ju-ge-shi-dao-ru-cdp)
 
 选择 CSV 进入页面
 
