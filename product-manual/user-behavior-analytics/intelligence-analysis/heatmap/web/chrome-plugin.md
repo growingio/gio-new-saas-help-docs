@@ -43,7 +43,7 @@ sidebar_position: 2
 
 14.6 及以上版本
 
-通过 [个人Token](../../../../product-manual/personal#token管理) 登录。
+通过 [个人Token](../../../../../product-manual/personal#token管理) 登录。
 
 ![](/img/assets-M2qbZInaXgdm8kkNosp-MPlfy8bFQnXE0XgBcOF-MPm6ySuO1_8ifEhgwrfimage.png)
 

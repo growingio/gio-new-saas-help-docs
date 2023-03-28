@@ -5,7 +5,7 @@ sidebar_position: 4
 
 # 创建 SQL 标签
 
-在使用 SQL 标签前，推荐您阅读[数据模型](../../../../getting-started/basic-concept/data-model)文档。
+在使用 SQL 标签前，推荐您阅读[数据模型](../../../getting-started/basic-concept/data-model)文档。
 
 一、在 **客户数据平台 > 用户管理 > 用户标签** 中点击 **新建用户标签** 进入用户标签创建弹窗
 

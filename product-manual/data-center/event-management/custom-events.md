@@ -98,9 +98,3 @@ sidebar_position: 1
 最后，定义该事件，并将如上两个属性关联到该事件上。
 
 ![](/img/assets-M2qbZInaXgdm8kkNosp-MjChPIe0rCI5X4MaWq8-MjCl2EMk1ZymQ0wEaW0image.png)
-
-## 常见问题[](#chang-jian-wen-ti)
-
-Q1：要定义的事件太多，支持批量定义吗？
-
-在[批量工具](../../../developer-manual/toolbox/metadata-creator)中，支持上传模板文件，将事件及其属性的 CSV 文件上传进行批量创建。

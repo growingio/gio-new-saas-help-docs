@@ -20,7 +20,7 @@ sidebar_position: 1
 | 分析设置     | 对于数值及日期类型的用户属性，可以通过自定义分组，进行灵活分析。     | 小数型、整数型、日期型 标签      |
 | 极端值设置     | 对于数值类型的用户属性，可以剔除1%-10%的极端值后，再查看分析结果。     | 日期型 标签      |
 
-> 空间内仅支持查看和使用数据授权的用户属性，详情请参见[数据授权](../../product-manual/enterprise-management/project-manage/data-authorization)。
+> 空间内仅支持查看和使用数据授权的用户属性，详情请参见[数据授权](/product-manual/enterprise-management/project-manage/data-authorization)。
 
 ### 分析设置
 
