@@ -9,7 +9,8 @@ sidebar_position: 2
 
 在空间管理中查询项目下所有空间信息，并支持编辑空间信息、修改空间数据权限、配置空间成员。
 
-![图 7](/img/871a73a040f63e17f613f2a023b175325b7b27d1e89e81440f97db287e9aecb4.png)
+![picture 2](/img/kjgl_project-spaces.png)  
+
 
 ## 功能说明
 

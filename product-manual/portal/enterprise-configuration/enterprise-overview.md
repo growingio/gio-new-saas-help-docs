@@ -19,8 +19,6 @@ sidebar_position: 0
 
 ![图 2](/img/enterpriseinfo_enterprise-overview.png)  
 
-修改后的企业信息将作用于登录门户与导航栏logo。
-
-![图 3](/img/portal-login_enterprise-overview.png)  
+修改后的企业信息将作用于导航栏logo。
 
 ![图 4](/img/portal-homepage_enterprise-overview.png)  
