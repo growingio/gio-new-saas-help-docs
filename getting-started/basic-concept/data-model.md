@@ -342,6 +342,7 @@ where has( ids_$basic_userId , 'X' )
 | name  | String  | 名称 |
 | description  | String  | 描述 |
 | is_system  | Int8  | 是否预置。0否 1是 |
+| project_id  | Int32  | 项目ID |
 
 ### 事件属性表（event_variables）：
 
@@ -353,6 +354,7 @@ where has( ids_$basic_userId , 'X' )
 | description  | String  | 描述 |
 | value_type | String | 属性类型。如string | 
 | is_system  | Int8  | 是否预置。0否 1是 |
+| project_id  | Int32  | 项目ID |
 
 ### 事件与属性关系表（event_variable_mapping）：
 
@@ -360,6 +362,7 @@ where has( ids_$basic_userId , 'X' )
 |--------|---------------|-------------------------|
 | event_id  | Int32  | 事件ID |
 | variable_id  | Int32  | 事件属性ID |
+| project_id  | Int32  | 项目ID |
 
 ### 维度表（item_models）：
 
@@ -369,6 +372,7 @@ where has( ids_$basic_userId , 'X' )
 | name  | String  | 名称 |
 | description  | String  | 描述 |
 | is_system  | UInt8  | 是否预置。0否 1是 |
+| project_id  | Int32  | 项目ID |
 
 ### 维度表字段表（item_variables）：
 
@@ -381,6 +385,7 @@ where has( ids_$basic_userId , 'X' )
 | value_type  | Int32  | 字段类型。如string |
 | is_primary_key  | UInt8  | 是否维度表标识符。0否 1是 |
 | is_system  | UInt8  | 是否预置。0否 1是 |
+| project_id  | Int32  | 项目ID |
 
 ### 事件属性与维度表关系表（event_variable_item_mapping）：
 
@@ -388,6 +393,8 @@ where has( ids_$basic_userId , 'X' )
 |--------|---------------|-------------------------|
 | variable_id  | Int32  | 事件属性ID |
 | item_id  | Int32  | 维度表记录ID |
+| variable_type  | Int32  | 属性类型 |
+| project_id  | Int32  | 项目ID |
 
 ### 用户属性表（user_variables）：
 
@@ -398,6 +405,7 @@ where has( ids_$basic_userId , 'X' )
 | description  | String  | 描述 |
 | value_type  | String  | 属性类型。如string、double |
 | is_system  | UInt8  | 是否预置。0否 1是 |
+| project_id  | Int32  | 项目ID |
 
 ### 用户标签表（user_tags）：
 
@@ -407,6 +415,7 @@ where has( ids_$basic_userId , 'X' )
 | name  | String  | 名称 |
 | description  | String  | 描述 |
 | value_type  | String  | 标签类型。如string、double |
+| project_id  | Int32  | 项目ID |
 
 ### 用户分群表（user_segments）：
 
@@ -416,6 +425,7 @@ where has( ids_$basic_userId , 'X' )
 | name  | String  | 名称 |
 | description  | String  | 描述 |
 | project_id  | Int32  | 项目ID |
+| space_id  | Int32  | 空间ID |
 
 ### 用户身份表（user_identities）：
 
@@ -424,6 +434,7 @@ where has( ids_$basic_userId , 'X' )
 | key  | String  | 标识符，如$basic_userId |
 | name  | String  | 名称，如登录用户ID |
 | description  | String  | 描述 |
+| project_id  | Int32  | 项目ID |
 
 ### 数据源表（data_sources）：
 
@@ -432,6 +443,7 @@ where has( ids_$basic_userId , 'X' )
 | key  | String  | 标识符 |
 | name  | String  | 名称 |
 | description  | String  | 描述 |
+| project_id  | Int32  | 项目ID |
 
 ### 爬虫表（crawler_rules）：
 
@@ -442,3 +454,4 @@ where has( ids_$basic_userId , 'X' )
 | name  | String  | 名称，如百度爬虫 |
 | description  | String  | 描述 |
 | is_system  | UInt8  | 是否预置。0否 1是 |
+| project_id  | Int32  | 项目ID |
