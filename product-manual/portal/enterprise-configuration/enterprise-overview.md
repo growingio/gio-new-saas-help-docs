@@ -21,4 +21,6 @@ sidebar_position: 0
 
 修改后的企业信息将作用于导航栏logo。
 
+![图 5](/img/denglumenhu_enterprise-overview.png)  
+
 ![图 4](/img/portal-homepage_enterprise-overview.png)  

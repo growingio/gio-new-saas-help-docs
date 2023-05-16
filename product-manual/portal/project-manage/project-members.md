@@ -3,50 +3,92 @@ id: project-members
 sidebar_position: 4
 ---
 
-# 成员管理
+# 项目成员
 
 ## 简介
 
-对项目下成员的管理。成员可来自新增企业用户、关联已有企业用户。设置成员项目角色、空间的分配。
+使用者一般为IT部门或者业务线负责人或者协助业务线负责人管理的同事。包含：
 
-![picture 12](/img/chengyuanguanli_project-members.png)  
+* 新建账号/关联企业账号
+* 编辑账号信息
+* 修改角色
+* 重置密码
+* 加入空间
+* 移除成员
 
 ## 功能说明
 
 ### 邀请成员
 
-1、点击【邀请成员】
+必要信息：
 
-![picture 14](/img/yqcybtn_project-members.png)  
+* 用户名
+* 密码
+* 项目角色
+* 姓名
 
+可选信息：
 
-2、录入项目角色、关联空间、成员邮箱。
+* 关联空间
+  * 可选择的空间范围：当前操作人可管理的空间范围。
+* 手机号
+* 邮箱
 
-![图 1](/img/yqcy_project-members.png)  
-
-3、点击确认,可以通过提示确认是否邀请成功。
-
-![picture 15](/img/fscg_project-members.png)  
-
-
-4、被邀请者将在邮箱内收到一封邀请邮件。
-
-![picture 16](/img/yqyj_project-members.png)  
-
+![图 19](/img/xinjianzhanghao_project-members.png)  
 
 ### 关联企业账号
-已有企业账号时，关联企业账号。点击【关联企业账号】，配置项目角色、关联空间即可。
 
-![图 16](/img/34a8dd945f1452ebdf4b8858e31a9a2194f95cdb8adb681130465d0649366192.png)  
+必要信息：
+
+* 企业账号
+* 项目角色
+  
+可选信息：
+
+* 关联空间
+  * 可选择的空间范围：当前操作人可管理的空间范围。
+
+![图 20](/img/guanlianqiyezhanghao_project-members.png)  
 
 ### 编辑成员信息
-1、点击更多操作-编辑，或者 点击成员详情-编辑
-![picture 11](/img/_project-members.png)  
 
-2、点击【确认】，保存修改的成员信息。
+不可编辑：
 
+* 用户名
+
+可编辑：
+
+* 项目角色
+* 姓名
+* 手机号
+* 邮箱
+
+![图 22](/img/xiugaixinxi_project-members.png)  
+
+### 修改角色
+
+* 无法修改项目负责人角色，只能通过移交负责人功能修改。
+
+![图 25](/img/xiugaijuese_project-members.png)  
+
+#### 批量修改角色
+
+选中多个用户，将出现【修改角色】按钮。
+
+![图 26](/img/piliangxiugai_project-members.png)  
+
+### 重置密码
+
+系统将为选中账号自动生成复杂密码，不支持自定义密码。
+
+![图 23](/img/chongzhimima_project-members.png)  
 
 ### 移除成员
-点击更多操作-移除成员
+
+成员移除后，将无法访问项目。
+
+* 无法将项目负责人移除
+
+![图 24](/img/yichuchengyuan_project-members.png)  
 
 ![picture 17](/img/yccy_project-members.png)  
