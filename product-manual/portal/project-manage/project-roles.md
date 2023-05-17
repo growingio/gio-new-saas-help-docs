@@ -35,15 +35,14 @@ sidebar_position: 3
 选填信息：
 
 * **产品系统**指客户购买商业化版本中包含的产品系统，最大可选范围：客户数据平台、智能运营、获客分析、数据中心
-* **已购应用**指客户额外增购的插件应用，如：CJA、渠道质量分析
 
-![图 5](/img/xinjianxiangmujuese_project-roles.png)  
+![图 11](/img/xinjianxiangmujuese_project-roles.png)
 
 #### 第二步：配置产品权限
 
 若在【第一步】未选择产品系统，该角色仅拥有管理相关权限配置。
 
-![图 6](/img/dierbuxinjianjuese_project-roles.png)  
+![图 12](/img/peizhiquanxian_project-roles.png)  
 
 ### 编辑项目角色
 
@@ -51,7 +50,7 @@ sidebar_position: 3
 
 * 系统角色中，项目负责人、项目管理员、GIO技术顾问无法修改权限配置。其他均可修改
 
-![图 7](/img/bianjixiangmujuese_project-roles.png) 
+![图 7](/img/bianjixiangmujuese_project-roles.png)
 
 ### 删除角色
 

@@ -15,12 +15,14 @@ sidebar_position: 1
 * 项目空间管理
 * 操作日志查看、下载
 
-## 功能入口[](#gong-neng-shuo-ming)
+## 功能入口
 
 入口1：首页-项目信息卡片
-![图 1](/img/portal-enterance1_README.png)  
+
+![图 5](/img/gxiangmuuanlishouyerukou_README.png)  
 
 入口2：工作台-用户登录信息卡片
+
 ![图 2](/img/portal-enterance2_README.png)  
 
 入口3：
