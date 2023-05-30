@@ -143,7 +143,7 @@ when var_1 = 'level2' then '中级'
 when var_1 = 'level3' then '高级' 
 else '其他等级' end
 
-### 案例 7: 日期相减 （事件属性、用户属性）
+### 案例 7：日期相减 （事件属性、用户属性）
 希望使用分析模型，根据按宝宝天龄/月龄做商品受众的年龄段分析。 由于触发事件时宝宝的天龄/月龄不能采集，只能通过计算得出。这时候可以创建一个虚拟属性，将事件触发时间和宝宝出生日期相减计算得出。
 
 SQL表达式： date_diff('day',event.event_time, user.$basic_birthday)​
@@ -200,10 +200,10 @@ A：当引用的属性被删除时，虚拟属性立即变为异常状态。对�
 | to_date         | 字符串转日期 | 假设var_1为字符串类型，如"2022-01-01"<br/>SQL表达式：to_date(var_1) |
 | to_datetime     | 字符串转日期时间 | 假设var_1为字符串类型，如"2022-01-01 00:00:00"<br/>SQL表达式：to_datetime('2022-01-01 00:00:00') |
 | format_date     | 日期格式化 | 如将event_time转小时，<br/>SQL表达式：format_date(event_time,'%H')  |
+| date_diff	| 日期相减	| 如根据用户出生日期与事件触发时间计算用户年龄<br/>SQL表达式：date_diff('day',event.event_time, user.$basic_birthday)
 
 
 format_date的常用修饰符如下：
-
 | 修饰符 | 描述 | 示例 |
 |-----------------|-----------------|-----------------|
 | %Y | 年 | 2018 |
