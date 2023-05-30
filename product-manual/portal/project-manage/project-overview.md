@@ -7,9 +7,7 @@ sidebar_position: 1
 
 ## 简介
 
-项目概览包含项目的基本信息与成员的活跃信息。
-
-![图 10](/img/xiangmugailan_project-overview.png)  
+项目概览包含项目的基本信息与成员的活跃信息。 
 
 ## 功能说明
 
@@ -29,7 +27,8 @@ sidebar_position: 1
 * 仅项目负责人可操作
 * 移交时需要对当前操作人进行二次身份验证
   
-![图 11](/img/yijiaofuzeren_project-overview.png)  
+![图 1](/img/yijiaofuzeren_project-overview.png)  
+
 
 ### 查看成员活跃信息
 

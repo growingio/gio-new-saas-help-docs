@@ -37,7 +37,7 @@ sidebar_position: 2
 * 被任命的负责人，必须已经在项目中。
 * 在移交之前，需要进行当前操作人员二次身份验证
   
-![图 2](/img/yijiaoxiangmufuzeren_projects.png)  
+![图 1](/img/yijiaoxiangmufuzeren_projects.png)
 
 ### 删除&恢复项目
 
@@ -63,4 +63,5 @@ sidebar_position: 2
 
 :::
 
-![图 4](/img/huifuxiangmu_projects.png)  
+![图 2](/img/huifuxiangmu_projects.png)  
+

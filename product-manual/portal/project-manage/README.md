@@ -19,11 +19,12 @@ sidebar_position: 1
 
 入口1：首页-项目信息卡片
 
-![图 5](/img/gxiangmuuanlishouyerukou_README.png)  
+![图 3](/img/shouyexiangmuguanli_README.png)  
 
 入口2：工作台-用户登录信息卡片
 
-![图 2](/img/portal-enterance2_README.png)  
+![图 1](/img/gongzuotaixiangmuguanli_README.png)
 
-入口3：
-![图 4](/img/portal-enterance4_README.png)
+入口3：导航栏Launcher
+
+![图 2](/img/daohanglauncher_README.png)  

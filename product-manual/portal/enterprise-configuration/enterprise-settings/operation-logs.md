@@ -13,4 +13,5 @@ sidebar_position: 5
 
 操作日志仅包含企业管理相关的操作 。
 
-![图 1](/img/portal-enterprice_operation-logs.png)  
+![图 1](/img/qiyerizhi_operation-logs.png)  
+
