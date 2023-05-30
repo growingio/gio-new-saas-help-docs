@@ -62,5 +62,7 @@ sidebar_position: 3
 ### 批量修改角色
 
 在角色详情下，选中多个用户，将出现【修改角色】按钮。
-![图 10](/img/piliangxiugai_project-roles.png)  
+
+![图 1](/img/piliangxiugai_project-roles.png)  
+
 
