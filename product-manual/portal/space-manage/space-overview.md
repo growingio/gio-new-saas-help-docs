@@ -37,8 +37,6 @@ sidebar_position: 1
 
 查看过去7/14/30天活跃人数及活跃趋势。
 
-![图 3](/img/kongjianhuoyuexinxi_space-overview.png)  
-
 ### 下载成员活跃明细
 
 选择时间范围、空间，点击下载。活跃成员明细，包含成员姓名、账号、天数。

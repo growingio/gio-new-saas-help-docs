@@ -16,6 +16,6 @@ sidebar_position: 1
 
 ## 功能入口[](#gong-neng-shuo-ming)
 
-入口：工作台-用户登录信息卡片
+入口：工作台
 
-![图 1](/img/gongzuotaikongjianguanlirukou_README.png)  
+![图 1](/img/kongjianguanlirukou_README.png)  
