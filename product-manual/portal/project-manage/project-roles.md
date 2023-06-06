@@ -9,7 +9,7 @@ sidebar_position: 3
 
 项目角色可以查看当前项目下所有角色及对角色进行统一的管理。
 
-![图 3](/img/portal-_project-roles.png)  
+![图 2](/img/xiangmujuese_project-roles.png)  
 
 ## 系统角色
 
@@ -50,14 +50,14 @@ sidebar_position: 3
 
 * 系统角色中，项目负责人、项目管理员、GIO技术顾问无法修改权限配置。其他均可修改
 
-![图 7](/img/bianjixiangmujuese_project-roles.png)
+![图 3](/img/bianjijuese_project-roles.png)  
 
 ### 删除角色
 
 * 若角色下存在成员时，不可删除。
 * 系统角色不可删除。
 
-![图 9](/img/shanchujuese_project-roles.png)  
+![图 4](/img/shanchujuese_project-roles.png)  
 
 ### 批量修改角色
 

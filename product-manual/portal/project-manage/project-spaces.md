@@ -14,9 +14,11 @@ sidebar_position: 2
 * 分配空间可用资源：产品系统、可使用的数据范围
 * 新建/删除空间
 
+![图 5](/img/xiangmukongjian_project-spaces.png)  
+
 ## 功能边界
 
-* 项目空间下，仅拥有项目管理权限的用户，无法进行空间内的管理。比如，空间成员管理。
+* 项目空间下，无法进行空间内的管理。比如，管理空间成员。
 
 ## 功能说明
 
@@ -25,14 +27,13 @@ sidebar_position: 2
 * 项目的总空间数=企业分配给项目的空间数。
 * **产品系统**指项目可用且在空间级使用的产品系统，如：增长分析、客户数据平台、智能运营
 
-![图 1](/img/chuangjiankongjian_project-spaces.png)  
+![图 6](/img/xinjiankongjian_project-spaces.png)  
 
 ### 查看空间详情
 
 点击空间名称，进入空间详情页。
 
-![图 2](/img/kongjianxiangqing_project-spaces.png)  
-
+![图 7](/img/kongjianxiangqing_project-spaces.png)  
 
 ### 数据权限
 

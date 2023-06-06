@@ -37,7 +37,8 @@ sidebar_position: 2
 * 被任命的负责人，必须已经在项目中。
 * 在移交之前，需要进行当前操作人员二次身份验证
   
-![图 1](/img/yijiaoxiangmufuzeren_projects.png)
+![图 5](/img/yijiaofuzeren_projects.png)  
+
 
 ### 删除&恢复项目
 
@@ -49,7 +50,8 @@ sidebar_position: 2
 * 在30天内，上报到该项目的数据仍然会接收。项目可恢复。
 * 超过30天，上报到该项目的数据不再接收。项目不可恢复。
 
-![图 3](/img/shanchuxiangmu_projects.png)  
+![图 6](/img/shanchuxiangmu_projects.png)  
+
 
 #### 恢复项目
 
@@ -63,5 +65,6 @@ sidebar_position: 2
 
 :::
 
-![图 2](/img/huifuxiangmu_projects.png)  
+![图 7](/img/huifuxiangmu_projects.png)  
+
 

@@ -50,4 +50,4 @@ sidebar_position: 3
 
 账号删除后，选中帐户将无法进入企业。
 
-![图 1](/img/shanchuzhanghao_account.png)  
+![图 2](/img/shanchuzhanghao_account.png)  

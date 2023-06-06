@@ -28,14 +28,14 @@ sidebar_position: 4
 
 * 空间角色：不可选择空间负责人
 
-![图 2](/img/xiugaijuese_space-members.png)  
+![图 2](/img/xiugaijuese_space-members.png)   
 
 #### 批量修改角色
 
-![图 4](/img/piliangxiugai_space-members.png)  
+![图 3](/img/piliangxiugaijuese_space-members.png)  
 
 ### 移除成员
 
 * 成员移除后，将不可访问空间。
 
-![图 3](/img/yichuchengyuan_space-members.png)  
+![图 4](/img/yichuchengyuan_space-members.png)  

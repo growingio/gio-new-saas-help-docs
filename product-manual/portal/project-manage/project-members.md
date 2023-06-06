@@ -52,19 +52,20 @@ sidebar_position: 4
 
 * 无法修改项目负责人角色，只能通过移交负责人功能修改。
 
-![图 25](/img/xiugaijuese_project-members.png)  
+![图 2](/img/xiugaijuese_project-members.png)  
+
 
 #### 批量修改角色
 
 选中多个用户，将出现【修改角色】按钮。
 
-![图 26](/img/piliangxiugai_project-members.png)  
+![图 3](/img/piliangxiugaijuese_project-members.png)   
 
 ### 加入空间
 
 可加入的空间：当前操作人可管理的空间范围。
 
-![图 28](/img/jiarukongjian_project-members.png)  
+![图 4](/img/jirukongjian_project-members.png)  
 
 ### 移除成员
 
@@ -72,4 +73,4 @@ sidebar_position: 4
 
 * 无法将项目负责人移除
 
-![图 29](/img/yichuchengyuan_project-members.png)  
+![图 5](/img/yichuchengyuan_project-members.png)  

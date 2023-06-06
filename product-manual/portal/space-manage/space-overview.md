@@ -13,11 +13,12 @@ sidebar_position: 1
 
 ![图 1](/img/kongjiangailan_space-overview.png)  
 
+
 ## 功能说明
 
 ### 编辑空间信息
 
-![图 2](/img/bianjikongjianxinxi_space-overview.png)  
+![图 2](/img/bianjikongjian_space-overview.png) 
 
 ### 查看数据授权
 
@@ -41,5 +42,3 @@ sidebar_position: 1
 ### 下载成员活跃明细
 
 选择时间范围、空间，点击下载。活跃成员明细，包含成员姓名、账号、天数。
-
-![图 9](/img/portal-project-activeusersdownload_project-overview.png)  
