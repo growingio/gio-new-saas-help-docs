@@ -1,6 +1,6 @@
 ---
 id: user-identifications
-sidebar_position: 7
+sidebar_position: 9
 ---
 
 # 用户身份

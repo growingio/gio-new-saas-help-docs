@@ -1,6 +1,6 @@
 ---
 id: virtual-property
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # 虚拟属性

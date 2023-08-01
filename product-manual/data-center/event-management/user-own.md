@@ -1,6 +1,6 @@
 ---
 id: user-own
-sidebar_position: 12
+sidebar_position: 8
 ---
 
 # 用户资产
