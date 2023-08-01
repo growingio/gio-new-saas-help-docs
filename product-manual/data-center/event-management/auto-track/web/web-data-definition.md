@@ -9,7 +9,7 @@ sidebar_position: 1
 
 GrowingIO 全量采集用户行为数据，你可以通过「规则圈选」来定义元素和页面，定义规则成功并关联无埋点事后，GrowingIO默认回溯过去7天的数据。
 
-Chrome插件安装：[请参考Chrome插件]()​
+Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-management/auto-track/web/auto-track-web-chrome-plugin)​
 
 >使用前请确保网页已正确集成JS SDK 4.0.0
 >如果您的Web页面URL使用了Hashtag，请在加载SDK进行预先配置，详情可参考 SDK 帮助文档
