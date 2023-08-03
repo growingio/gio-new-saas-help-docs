@@ -15,35 +15,40 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 >如果您的Web页面URL使用了Hashtag，请在加载SDK进行预先配置，详情可参考 SDK 帮助文档
 >
 >URL解读：
+>
 >URL示意：www.xxx.com**/**12345/678/123
 >
 >拆分：域名/路径
-即 www.xxx.com 为域名，/12345/678/123 为路径
+>
+>即 www.xxx.com 为域名，/12345/678/123 为路径
 
-![图 0](/img/pic_circlepageview_web-data-definition.png)  
+![图 10](/img/pic_pageview_circle_web-data-definition.png)  
+
 
 
 ## 圈选操作
 
 在 ”**数据中心 \> 元数据管理 \>无埋点事件**” 中点击 “**规则圈选”** 进入规则圈选说明页面。
 
-![图 1](/img/pic_auto_track_circle_web-data-definition.png)  
-![图 2](/img/pic_downlaod_plugin_web-data-definition.png)  
+![图 17](/img/pic_rule_circle_web-data-definition.png)  
+![图 19](/img/pic_rulecircle_web-data-definition.png)  
+
 
 
 操作前提：
 
 下载安装GIO Circle Collection插件后，在Chrome中打开目标页面后唤起插件，输入服务器地址和登录Token，登录成功后可进行圈选规则的定义
 
-![图 3](/img/pic_plugin_login_web-data-definition.png)  
+![图 20](/img/pic_circle_login_web-data-definition.png)  
 
 
-圈选页面
+
+## 圈选页面
 
 选择“**圈选页面**“，点击“**开始圈选**“进入页面定义流程。
 
-![图 4](/img/pic_start_page_circle_web-data-definition.png)  
-![图 5](/img/pic_page_circle_web-data-definition.png)  
+![图 11](/img/pic_start_circle_web-data-definition.png)  
+![图 13](/img/pic_page_circle-detail_web-data-definition.png)  
 
 
 | 名称  | 说明  |
@@ -58,7 +63,7 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 
 点击保存后，保存定义的页面圈选规则，同时关联选择的无埋点事件。可在无埋点事件列表页查看页面浏览类型无埋点事件对应的规则，并按实际场景进行规则的移除及上下线操作。
 
-### 注：相同规则全局仅能定义一次。
+#### 注：相同规则全局仅能定义一次。
 
 页面规则创建成功后，仅能修改事件名称和描述，不支持规则修改。
 
@@ -72,18 +77,17 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 
 
 
-圈选元素
+## 圈选元素
 
 选择圈选元素，点击“开始圈选“后，进入元素定义流程，会自动高亮显示可被定义的元素。
 
-![图 6](/img/pic_element_circle_web-data-definition.png)  
-![图 7](/img/pic_element_highlight_web-data-definition.png)  
-
+![图 14](/img/pic_element_start_circle_web-data-definition.png)  
+![图 15](/img/pic_page_element_highlight_web-data-definition.png)  
 
 点击要定义的元素，进入圈选元素定义流程。
 
-![图 8](/img/pic_element_circle-rule_web-data-definition.png)  
-![图 9](/img/pic_element_auto-track_event_web-data-definition.png)  
+![图 16](/img/pic_element_circle_detail_web-data-definition.png)  
+
 
 
 | 名词   | 说明  |
@@ -99,7 +103,7 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 
 点击保存后，保存定义的元素圈选规则，同时关联选择的无埋点事件。可在无埋点事件列表页查看元素点击及元素修改类型无埋点事件对应的规则，并按实际场景进行规则的移除及上下线操作。
 
-### 注：相同规则全局仅能定义一次。
+#### 注：相同规则全局仅能定义一次。
 
 页面规则创建成功后，仅能修改事件名称和描述，不支持规则修改。
 
