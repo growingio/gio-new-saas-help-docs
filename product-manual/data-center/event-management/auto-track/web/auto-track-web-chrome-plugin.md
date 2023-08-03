@@ -39,9 +39,4 @@ sidebar_position: 2
 第三步: 输入正确的服务器地址和登录Token后，点击开始圈选进行规则定义。
 
   ![图 15](/img/pic_plugin_login_auto-track-web-chrome-plugin.png)  
- ![图 16](/img/pic_plugin_start_circle_auto-track-web-chrome-plugin.png)  
-
-
-
-![图 17](/img/%24%7Bfilename%7D_auto-track-web-chrome-plugin.png)  
-![图 18](/img/%24%7Bfilename%7D_auto-track-web-chrome-plugin.png)  
+ ![图 16](/img/pic_plugin_start_circle_auto-track-web-chrome-plugin.png)
