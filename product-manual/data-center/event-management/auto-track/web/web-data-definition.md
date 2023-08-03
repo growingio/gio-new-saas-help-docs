@@ -16,7 +16,8 @@ Chrome插件安装：[请参考Chrome插件](../../../../product-manual/data-man
 >
 >URL解读：
 >URL示意：www.xxx.com**/**12345/678/123
->>拆分：域名/路径
+>
+>拆分：域名/路径
 即 www.xxx.com 为域名，/12345/678/123 为路径
 
 ![图 0](/img/pic_circlepageview_web-data-definition.png)  
