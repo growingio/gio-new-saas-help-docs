@@ -43,3 +43,5 @@ sidebar_position: 2
 
 
 
+![图 17](/img/%24%7Bfilename%7D_auto-track-web-chrome-plugin.png)  
+![图 18](/img/%24%7Bfilename%7D_auto-track-web-chrome-plugin.png)  
