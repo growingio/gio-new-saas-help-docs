@@ -57,7 +57,7 @@ GET
 | key         | String    | 标识符                                                                                                                                                             |
 | createdBy   | String    | 分群类型<br></br>DIRECT：规则创建<br></br>FROM_FUNNEL：漏斗创建<br></br>FROM_RETENTION：留存创建<br></br>FROM_FREQUENCY：分布分析创建<br></br>FROM_FILES：文件上传 |
 | description | String    | 描述                                                                                                                                                               |
-| scheduler   | String    | 更新频次<br></br>DAILY：每日更新<br></br>ONCE：手动                                                                                                                |
+| scheduler   | String    | 更新频次<br></br> AUTO：每日更新<br></br>ONCE：手动                                                                                                                |
 | detector    | Objective | 更新状态信息                                                                                                                                                       |
 | creatorId   | String    | 创建人 ID                                                                                                                                                          |
 | creator     | String    | 创建人                                                                                                                                                             |
@@ -100,7 +100,7 @@ curl --location --request GET 'http://{api-host}/v1/api/projects/WlGk4Daj/segmen
             "key": "seg_example_api",
             "createdBy": "DIRECT",
             "description": "API示例",
-            "scheduler": "DAILY",
+            "scheduler": "AUTO",
             "detector": {
                 "stage": "FINISH",
                 "detectedAt": "2022-01-01T01:01:00.000Z"
