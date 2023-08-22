@@ -42,7 +42,12 @@ host 白名单，是 将 kafka 订阅权限授权给指定 host 的配置，而�
 | String user_id; | 登录用户ID |
 | String user_key; | 用户身份类型    |
 | String session;    | 会话标识，标记一个访问 |
-|Map<String, String> attributes;	|事件属性|
+|Map<String, String> attributes;	|     属性字段|   
+
+ #### attributes 字段展开
+
+| attributes 字段  | 含义                                                                                   |
+| -------- | -------------------------------------------------------------------------------------- |
 |String package;	|APP包名/Web域名/小程序APPID|
 |String $platform;|	平台标识，示例：Web|
 |String $referrer_domain;	|来源域名或包名|
@@ -54,7 +59,9 @@ host 白名单，是 将 kafka 订阅权限授权给指定 host 的配置，而�
 |String $ip;	|客户端ID地址|
 |String $user_agent;|浏览器 agent 详细信息|
 |String $sdk_version;|	SDK版本号|
-|String dataSourceId;	|数据源信息  |
+|String dataSourceId;	|数据源信息  |  |
+
+
 
 ```json
 {
