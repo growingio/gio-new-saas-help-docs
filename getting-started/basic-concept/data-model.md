@@ -89,6 +89,8 @@ event_id是对重复数据去重处理的主要参数之一。它的生成机制
 | $text_value         | String   | 元素对应的文本名                                                     |
 | $href               | String   | 元素对应的链接                                                       |
 | $index              | String   | 元素在列表中的位置，0开始                                            |
+| $bounce              | BOOL   | 是否跳出                                            |
+| $exit              | BOOL   | 是否退出                                          |
 | $url_scheme         | String   | 集成应用标识                                                         |
 | $browser            | String   | 浏览器名称                                                           |
 | $browser_version    | String   | 浏览器版本                                                           |
@@ -99,6 +101,7 @@ event_id是对重复数据去重处理的主要参数之一。它的生成机制
 | $client_version     | String   | 客户端版本（仅移动端有效）                                           |
 | $channel            | String   | 客户端渠道来源                                                       |
 | $utm_source         | String   | 广告来源，标识投放的网站                                             |
+| $depth         | String   | 交互深度                                             |
 | $utm_medium         | String   | 广告媒介或营销媒介                                                   |
 | $utm_campaign       | String   | 广告名称，产品的具体广告系列名称、标语等                             |
 | $utm_term           | String   | 广告关键字，标识付费搜索关键字                                       |
@@ -109,6 +112,7 @@ event_id是对重复数据去重处理的主要参数之一。它的生成机制
 | $utm_term_session           | String   | 会话级广告关键字，标识付费搜索关键字                                       |
 | $utm_content_session        | String   | 会话级广告内容，用于区分相似内容或同一广告内的链接                         |
 | $traffic_source        | String   | 流量来源，如付费搜索、付费购物、自然搜索等                         |
+| $resolution             | String   | 屏幕大小（高*宽），640*360、1920*1080 Web 端是窗口大小，移动端是屏幕大小                                                    |
 | $traffic_source_session        | String   | 会话级流量来源，如付费搜索、付费购物、自然搜索等                         |
 | $key_word           | String   | 访问来源广告关键字                                                   |
 | $device_brand       | String   | 设备品牌名称                                                         |
@@ -128,10 +132,27 @@ event_id是对重复数据去重处理的主要参数之一。它的生成机制
 | $share_title   |  String  | 小程序端特有，分享收藏标题                                                       |
 | $target   |  String  | 小程序端特有，触发控件。如果 from 值是 button，则 target 是触发这次转发事件的 button id，否则为 undefined题                                                       |
 | $from   |  String  | 小程序端特有，记录转发事件来源。取值'button' 代表页面内转发按钮；取值'menu'，代表右上角转发菜单题                                                       |
-| $query   |  String  | 小程序端特有，页面参数，取值逻辑：小程序页面路径的自定义参数部分。                                                       |
+| $ads_id   |  String  | 渠道链接id                                                       |
 | $share_path   |  String  | 小程序端特有，分享（收藏）页面路径                                                   |
-| $share_query   |  String  | 小程序端特有，分享（收藏）页面自定义参数部分 |
+| $reach_ct_channel_name   |  String  | 智能运营-触达通道名称 |
+| $reach_ct_fail_type   |  String  | 智能运营-触达失败类型 |
+| $reach_ct_send_target   |  String  | 智能运营-发送目标 |
+| $reach_ct_space_id   |  String  | 智能运营-空间id	 |
+| $reach_ct_channel_type   |  String  | 智能运营-触达通道类型|
+| $reach_ct_channel_id   |  String  | 智能运营-触达通道id |
+| $reach_ct_source   |  String  | 智能运营-来源分 |
+| $reach_ct_ext   |  String  | 智能运营-扩展 |
+| $referrer_type   |  String  | 一级访问来源 |
+| $share_query   |  String  | 分享（收藏）页面参数|
+| $defer   |  UInt32  | 延迟场景还原 ｜
+| $ma_ct_campaign_id   |  String  | 智能运营_活动ID ｜
+| $ma_ct_node_id   |  String  | 智能运营_节点ID ｜
+| $ma_ct_instance_id   |  String  | 智能运营_活动实例ID ｜
+| $ma_ct_channel   |  String  | 智能运营_触达渠道 ｜
+| $ma_ct_status   |  String  | 智能运营_触达状态 ｜
+
 > $page_count和$duration是离线计算而非实时采集的信息，时效性是T+1天。
+
 
 #### 自定义属性[](#zi-ding-yi-shu-xing)
 
@@ -163,6 +184,7 @@ event_id是对重复数据去重处理的主要参数之一。它的生成机制
 |广告曝光|$ads_imp|当在投放广告平台的链接曝光（被用户看到）时，会触发$ads_imp事件|
 |广告点击 | $ads_click |用户点击投放在广告平台的链接时，会触发$ads_click事件 |
 | 任意事件 | $anyevent   | 事件表中的所有事件抽象得到，实时计算生成                             |
+| 智能运营-渠道触达 | $ma_channel_touch   | 智能运营渠道上触达用户事件自动回传                             |
 
 > 关于任意事件
 > 
