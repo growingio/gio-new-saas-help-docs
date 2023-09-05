@@ -69,7 +69,7 @@ http://{api-host}/v1/api/projects/{projectId}/data_export/{file_create_date}/{fi
 
 | 名称 | 类型 | 必填 | 描述 | 示例值 |
 | ---- | ---- | ---- | ---- | ------ |
-| projectId | string | 是 | 项目ID | WlGk4Daj |
+| projectId | string | 是 | 项目ID | 可以在项目概览中查看项目ID，如：WlG**Daj |
 | file_type | string | 是 | 文件类型 | 文件类型:event,user_id,user_props,user_segments,user_tags |
 | file_create_date | string | 是 | 文件类型 | 文件生成日期：格式yyyy-MM-dd，如：2023-01-01|
 
@@ -144,7 +144,7 @@ http://{api-host}/v1/api/projects/{projectId}/data_export/{file_create_date}/{fi
 
 | 名称 | 类型 | 必填 | 描述 | 示例值 |
 | ---- | ---- | ---- | ---- | ------ |
-| projectId | string | 是 | 项目ID | WlGk4Daj |
+| projectId | string | 是 | 项目ID | 可以在项目概览中查看项目ID，如：WlG**Daj |
 | file_type | string | 是 | 文件类型 | 文件类型:event,user_id,user_props,user_segments,user_tags |
 | file_create_date | string | 是 | 文件类型 | 文件生成日期：格式yyyy-MM-dd，如：2023-01-01|
 | file_name | string | 是 | 文件名称 | 从查询文件清单API 返回 fileList 内容中获取|
@@ -165,7 +165,7 @@ curl请求
 
 ```
  curl -X 'GET' \
-  'http://uat-uba.growingio.cn/v1/api/projects/WlGk4Daj/data_export/2023-08-20/user_id/downloadFile?file_name=id_%24anonymous_user.csv.gz&file_path=%2Fid_%24anonymous_user' \
+  'http://uat-uba.growingio.cn/v1/api/projects/Wl**4Daj/data_export/2023-08-20/user_id/downloadFile?file_name=id_%24anonymous_user.csv.gz&file_path=%2Fid_%24anonymous_user' \
   -H 'accept: application/octet-stream'
 ```
 
@@ -203,7 +203,7 @@ Response body
 Q：事件明细是否有历史数据一次性导出的方案？
 A：由于事件明细的每日例行定时导出任务是导出 T+1 的数据，因此在开启离线数据导出能力后，可以每日下载前一日的事件数据。若需要将历史数据一次性导出，请联系 GrowingIO 项目经理获得支持。
 Q：下载压缩文件前，如何知道文件是完整的？
-A：使用获取文件 API。。。。。。
+A：请求获取文件 API，返回结果不为空，说明文件已生成完整。
 
 ## 附录：事件明细文件的字段详情
 
