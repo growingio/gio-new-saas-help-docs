@@ -1,6 +1,6 @@
 ---
 id: metadata-management
-sidebar_position: 11
+sidebar_position: 13
 ---
 
 # 批量管理

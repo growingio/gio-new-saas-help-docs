@@ -1,6 +1,6 @@
 ---
 id: session-management
-sidebar_position: 9
+sidebar_position: 12
 ---
 
 # Session管理

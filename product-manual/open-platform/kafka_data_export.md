@@ -35,6 +35,8 @@ host 白名单，是 将 kafka 订阅权限授权给指定 host 的配置，而�
 ### 事件数据
 | kafka 字段  | 含义                                                                                   |
 | -------- | -------------------------------------------------------------------------------------- |
+| String event_type; | 事件类型|
+| String account_id; | 项目ID|
 | String event_key; | 事件标识|
 | long event_time; | 事件接收时间（毫秒时间戳）  |
 | long client_time | 事件发生时间（毫秒时间戳） |
@@ -42,7 +44,12 @@ host 白名单，是 将 kafka 订阅权限授权给指定 host 的配置，而�
 | String user_id; | 登录用户ID |
 | String user_key; | 用户身份类型    |
 | String session;    | 会话标识，标记一个访问 |
-|Map<String, String> attributes;	|事件属性|
+|Map<String, String> attributes;	|     属性字段|   
+
+ #### attributes 字段展开
+
+| attributes 字段  | 含义                                                                                   |
+| -------- | -------------------------------------------------------------------------------------- |
 |String package;	|APP包名/Web域名/小程序APPID|
 |String $platform;|	平台标识，示例：Web|
 |String $referrer_domain;	|来源域名或包名|
@@ -54,7 +61,21 @@ host 白名单，是 将 kafka 订阅权限授权给指定 host 的配置，而�
 |String $ip;	|客户端ID地址|
 |String $user_agent;|浏览器 agent 详细信息|
 |String $sdk_version;|	SDK版本号|
-|String dataSourceId;	|数据源信息  |
+|String $data_source_id;	|数据源信息  |  
+| String $referrer_path;    | 页面来源 |
+| String $xpath;    | 元素路径 |
+| String $text_value;    | 元素内容 |
+| String $index;    | 元素位置 |
+| String $os;    | 操作系统 |
+| String $os_version;    | 操作系统版本 |
+| String $sdk_version;    | SDK 版本 |
+| String $client_version;    | 应用版本 |
+| String $channel;    | 自定义 App 渠道 |
+| String $device_brand;    | 设备品牌 |
+| String $device_model;    | 设备型号 |
+| String $device_type;    | 设备类型 |
+| String $language;    | 操作系统语言 |
+
 
 ```json
 {

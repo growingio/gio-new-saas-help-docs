@@ -1,6 +1,6 @@
 ---
 id: virtual-events
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # 虚拟事件

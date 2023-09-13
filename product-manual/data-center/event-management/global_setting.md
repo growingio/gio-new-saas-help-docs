@@ -1,6 +1,6 @@
 ---
 id: global_setting
-sidebar_position: 10
+sidebar_position: 14
 ---
 
 # 全局参数
